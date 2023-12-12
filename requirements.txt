@@ -1,0 +1,9 @@
+pylint
+click
+pytest
+black
+ipython
+numpy
+flask
+scikit-learn==1.3.0
+matplotlib
