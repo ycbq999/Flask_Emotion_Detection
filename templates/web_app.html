@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block bodyblock %}
+
+<div class="container">
+    <br><br>
+    <h3 class="display-8">Facial Expression Application</h3>
+    
+    <p>
+        Emotion Expression Classification: This App is driven by data and machine learning model.
+        The Model has pretrained using kaggle dataset and uploaded to huggingface model hub.
+        As soon as user upload the image, the app will connect to the hugging face api to connect to the model and 
+        show the probability of the prediction. The end prediction is the expression with the highest probability.
+
+    </p>
+    <img src="/static/images/002.PNG" class="image-fluid" width="600" alt="">
+
+    <a class="btn btn-outline-primary" href="/application/emo_detection/">Expression App</a>
+
+</div>
+
+{% endblock %}
